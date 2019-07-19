@@ -34,7 +34,9 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/kubernetes-csi/csi-lib-utils/connection"
 	"github.com/kubernetes-csi/csi-test/driver"
-	"github.com/kubernetes-csi/external-provisioner/pkg/features"
+
+	//"github.com/kubernetes-csi/external-provisioner/pkg/features"
+	"github.com/kpaas-io/external-provisioner/pkg/features"
 	crdv1 "github.com/kubernetes-csi/external-snapshotter/pkg/apis/volumesnapshot/v1alpha1"
 	"github.com/kubernetes-csi/external-snapshotter/pkg/client/clientset/versioned/fake"
 	"google.golang.org/grpc"
